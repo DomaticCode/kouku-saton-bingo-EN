@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kouku_saton_bingo_EN/static/css/main.09cabf4a.chunk.css",
-    "main.js": "/kouku_saton_bingo_EN/static/js/main.207b9094.chunk.js",
-    "main.js.map": "/kouku_saton_bingo_EN/static/js/main.207b9094.chunk.js.map",
+    "main.js": "/kouku_saton_bingo_EN/static/js/main.74f3aa4e.chunk.js",
+    "main.js.map": "/kouku_saton_bingo_EN/static/js/main.74f3aa4e.chunk.js.map",
     "runtime-main.js": "/kouku_saton_bingo_EN/static/js/runtime-main.a9c2039f.js",
     "runtime-main.js.map": "/kouku_saton_bingo_EN/static/js/runtime-main.a9c2039f.js.map",
     "static/js/2.e6a7ffa8.chunk.js": "/kouku_saton_bingo_EN/static/js/2.e6a7ffa8.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a9c2039f.js",
     "static/js/2.e6a7ffa8.chunk.js",
     "static/css/main.09cabf4a.chunk.css",
-    "static/js/main.207b9094.chunk.js"
+    "static/js/main.74f3aa4e.chunk.js"
   ]
 }
