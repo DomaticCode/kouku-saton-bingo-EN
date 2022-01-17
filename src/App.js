@@ -292,7 +292,7 @@ function App() {
     const res = [];
     const nowBingo = checkBingo(bingo[round]);
     const candi = candidateList();
-    if (round > 1 && candi.length === 0) setWarnMsg("무적빙고 불가능! 이난나 or GG");
+    if (round > 1 && candi.length === 0) setWarnMsg("Bingo impossible INANA or GG");
 
     for (let i = 0; i < 5; i++) {
       const tds = [];
@@ -850,14 +850,14 @@ function App() {
           <div className="button-container">
             {browserSupportsSpeechRecognition ? (
               <div className="speech">
-                <FormControlLabel control={<Switch checked={stillListening} onChange={handleSpeech} />} label="음성 인식" />
+                <FormControlLabel control={<Switch checked={stillListening} onChange={handleSpeech} />} label="Speech to text" />
                 <div className="speech-script">{transcript}</div>
               </div>
             ) : (
               <div className="message-warning">{`브라우저가 음성 인식을 지원하지 않습니다.`}</div>
             )}
           </div>
-          <div className="message-desc">{`${round < 2 ? "초기 빙고" : `${round - 1}번째 폭탄`} 놓을 차례${!isInanna && round % 3 === 1 && round > 1 ? " (무적용 빙고 해야됨!)" : ""}`}</div>
+          <div className="message-desc">{`${round < 2 ? "set up" : `bomb ${round - 1}`} bingo${!isInanna && round % 3 === 1 && round > 1 ? " (Need to make a line!)" : ""}`}</div>
           <div className="message-warning">{`${warnMsg}`}</div>
         </div>
         <div className="bingo-container">{BingoTableView}</div>
