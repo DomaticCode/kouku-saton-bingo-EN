@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kouku_saton_bingo_EN/static/css/main.09cabf4a.chunk.css",
+    "main.js": "/kouku_saton_bingo_EN/static/js/main.207b9094.chunk.js",
+    "main.js.map": "/kouku_saton_bingo_EN/static/js/main.207b9094.chunk.js.map",
+    "runtime-main.js": "/kouku_saton_bingo_EN/static/js/runtime-main.a9c2039f.js",
+    "runtime-main.js.map": "/kouku_saton_bingo_EN/static/js/runtime-main.a9c2039f.js.map",
+    "static/js/2.e6a7ffa8.chunk.js": "/kouku_saton_bingo_EN/static/js/2.e6a7ffa8.chunk.js",
+    "static/js/2.e6a7ffa8.chunk.js.map": "/kouku_saton_bingo_EN/static/js/2.e6a7ffa8.chunk.js.map",
+    "static/js/3.18e1ba5f.chunk.js": "/kouku_saton_bingo_EN/static/js/3.18e1ba5f.chunk.js",
+    "static/js/3.18e1ba5f.chunk.js.map": "/kouku_saton_bingo_EN/static/js/3.18e1ba5f.chunk.js.map",
+    "index.html": "/kouku_saton_bingo_EN/index.html",
+    "static/css/main.09cabf4a.chunk.css.map": "/kouku_saton_bingo_EN/static/css/main.09cabf4a.chunk.css.map",
+    "static/js/2.e6a7ffa8.chunk.js.LICENSE.txt": "/kouku_saton_bingo_EN/static/js/2.e6a7ffa8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9c2039f.js",
+    "static/js/2.e6a7ffa8.chunk.js",
+    "static/css/main.09cabf4a.chunk.css",
+    "static/js/main.207b9094.chunk.js"
+  ]
+}
