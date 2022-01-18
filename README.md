@@ -1,5 +1,11 @@
 # 쿠크세이튼 빙고 도우미
 
+This is a translation and speech to text adaptation in progress of a [tool originally developed by ialy1595](https://github.com/ialy1595/kouku-saton-bingo)
+
+All credit goes to them, please show them some support.
+
+Use this tool by going to: https://domaticcode.github.io/kouku_saton_bingo_EN/
+
 링크: [쿠크르삥뽕](https://ialy1595.me/kouku/)
 
 ![](https://raw.githubusercontent.com/ialy1595/kouku-saton-bingo/master/screenshot/screenshot.jpg)
