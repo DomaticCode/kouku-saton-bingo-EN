@@ -448,6 +448,15 @@ function App() {
       command: "Bump :i/:j.",
       callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
     },
+    ////// if STT reads "pump" instead of bomb
+    {
+      command: "Pump :i:j",
+      callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
+    },
+    {
+      command: "Pump :i:j.",
+      callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
+    },
     {
       command: "Pump :i/:j",
       callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
@@ -587,27 +596,27 @@ function App() {
     },
     {
       command: "Pump four five",
-      callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
+      callback: (i, j) => clickBingo(4 - 1, 5 - 1),
     },
     {
       command: "Pump four five.",
-      callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
+      callback: (i, j) => clickBingo(4 - 1, 5 - 1),
     },
     {
       command: "Pump for five",
-      callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
+      callback: (i, j) => clickBingo(4 - 1, 5 - 1),
     },
     {
       command: "Pump for five.",
-      callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
+      callback: (i, j) => clickBingo(4 - 1, 5 - 1),
     },
     {
       command: "Pump four or five",
-      callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
+      callback: (i, j) => clickBingo(4 - 1, 5 - 1),
     },
     {
       command: "Pump four or five.",
-      callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
+      callback: (i, j) => clickBingo(4 - 1, 5 - 1),
     },
     ////// the 4-4 sticky wordings.
     {
@@ -808,11 +817,11 @@ function App() {
     },
     {
       command: "Pump tutu.",
-      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+      callback: (i, j) => clickBingo(2 - 1, 2 - 1),
     },
     {
-      command: "Pump tutu",
-      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+      command: "Bump tutu",
+      callback: (i, j) => clickBingo(2 - 1, 2 - 1),
     },
   ];
 
