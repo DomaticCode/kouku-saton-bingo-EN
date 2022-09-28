@@ -28,7 +28,7 @@ function App() {
   const [isInanna, setIsInanna] = useState(false);
   const [warnMsg, setWarnMsg] = useState("");
   const [stillListening, setStillListening] = useState(false);
-  const [preferSkull, setPreferSkull] = useState(2);
+  const [preferSkull, setPreferSkull] = useState(4);
   const scoreWeight = [1e10, 2e9, 1e7, 5e4, 5e4 * 10 * preferSkull + 1e4, 100, 1];
 
   const transM = (a) => a[0].map((x, c) => a.map((r) => r[c]));
@@ -841,7 +841,7 @@ function App() {
               <FontAwesomeIcon icon={faThumbsUp} />
             </div>
             <div className="slider-wrap">
-              <Slider value={preferSkull} onChange={handlePreferSkull} step={3} marks min={0} max={4} />
+              <Slider value={preferSkull} onChange={handlePreferSkull} step={1} marks min={0} max={4} />
             </div>
             <div className="slider-icon">
               <FontAwesomeIcon icon={faThumbsDown} />
