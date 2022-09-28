@@ -448,6 +448,14 @@ function App() {
       command: "Bump :i/:j.",
       callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
     },
+    {
+      command: "Pump :i/:j",
+      callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
+    },
+    {
+      command: "Pump :i/:j.",
+      callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
+    },
     ////// the 4-5 sticky wordings.
     {
       command: "Bomb for or five.",
@@ -577,6 +585,30 @@ function App() {
       command: "Bump four five.",
       callback: (i, j) => clickBingo(4 - 1, 5 - 1),
     },
+    {
+      command: "Pump four five",
+      callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
+    },
+    {
+      command: "Pump four five.",
+      callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
+    },
+    {
+      command: "Pump for five",
+      callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
+    },
+    {
+      command: "Pump for five.",
+      callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
+    },
+    {
+      command: "Pump four or five",
+      callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
+    },
+    {
+      command: "Pump four or five.",
+      callback: (i, j) => clickBingo(transNum(i) - 1, transNum(j) - 1),
+    },
     ////// the 4-4 sticky wordings.
     {
       command: "Bomb for four.",
@@ -608,6 +640,14 @@ function App() {
     },
     {
       command: "Bump for four",
+      callback: (i, j) => clickBingo(4 - 1, 4 - 1),
+    },
+    {
+      command: "Pump for four.",
+      callback: (i, j) => clickBingo(4 - 1, 4 - 1),
+    },
+    {
+      command: "Pump for four",
       callback: (i, j) => clickBingo(4 - 1, 4 - 1),
     },
     ////// the 4-3 sticky wordings.
@@ -643,6 +683,14 @@ function App() {
       command: "Bump for three",
       callback: (i, j) => clickBingo(4 - 1, 3 - 1),
     },
+    {
+      command: "Pump for three.",
+      callback: (i, j) => clickBingo(4 - 1, 3 - 1),
+    },
+    {
+      command: "Pump for three",
+      callback: (i, j) => clickBingo(4 - 1, 3 - 1),
+    },
     ////// the 4-2 sticky wordings.
     {
       command: "Bomb for two.",
@@ -674,6 +722,14 @@ function App() {
     },
     {
       command: "Bump for two",
+      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+    },
+    {
+      command: "Pump for two.",
+      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+    },
+    {
+      command: "Pump for two",
       callback: (i, j) => clickBingo(4 - 1, 2 - 1),
     },
     ////// the 4-1 sticky wordings.
@@ -710,12 +766,53 @@ function App() {
       callback: (i, j) => clickBingo(4 - 1, 1 - 1),
     },
     {
-      command: "폭탄 :x",
-      callback: (x) => transDoubleNum(x),
+      command: "Pump for one.",
+      callback: (i, j) => clickBingo(4 - 1, 1 - 1),
     },
     {
-      command: "음성 해제",
-      callback: () => handleSpeech(),
+      command: "Pump for one",
+      callback: (i, j) => clickBingo(4 - 1, 1 - 1),
+    },
+    ////// the 2-2 sticky wordings
+    {
+      command: "Bomb tutu.",
+      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+    },
+    {
+      command: "Bomb tutu",
+      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+    },
+    {
+      command: "Bom tutu.",
+      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+    },
+    {
+      command: "Bom tutu",
+      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+    },
+    {
+      command: "Bum tutu.",
+      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+    },
+    {
+      command: "Bum tutu",
+      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+    },
+    {
+      command: "Bump tutu.",
+      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+    },
+    {
+      command: "Bump tutu",
+      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+    },
+    {
+      command: "Pump tutu.",
+      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+    },
+    {
+      command: "Pump tutu",
+      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
     },
   ];
 
