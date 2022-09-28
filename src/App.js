@@ -841,7 +841,7 @@ function App() {
               <FontAwesomeIcon icon={faThumbsUp} />
             </div>
             <div className="slider-wrap">
-              <Slider value={preferSkull} onChange={handlePreferSkull} step={1} marks min={0} max={4} />
+              <Slider value={preferSkull} onChange={handlePreferSkull} step={3} marks min={0} max={4} />
             </div>
             <div className="slider-icon">
               <FontAwesomeIcon icon={faThumbsDown} />
