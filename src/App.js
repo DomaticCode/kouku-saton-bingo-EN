@@ -785,35 +785,35 @@ function App() {
     ////// the 2-2 sticky wordings
     {
       command: "Bomb tutu.",
-      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+      callback: (i, j) => clickBingo(2 - 1, 2 - 1),
     },
     {
       command: "Bomb tutu",
-      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+      callback: (i, j) => clickBingo(2 - 1, 2 - 1),
     },
     {
       command: "Bom tutu.",
-      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+      callback: (i, j) => clickBingo(2 - 1, 2 - 1),
     },
     {
       command: "Bom tutu",
-      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+      callback: (i, j) => clickBingo(2 - 1, 2 - 1),
     },
     {
       command: "Bum tutu.",
-      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+      callback: (i, j) => clickBingo(2 - 1, 2 - 1),
     },
     {
       command: "Bum tutu",
-      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+      callback: (i, j) => clickBingo(2 - 1, 2 - 1),
     },
     {
       command: "Bump tutu.",
-      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+      callback: (i, j) => clickBingo(2 - 1, 2 - 1),
     },
     {
       command: "Bump tutu",
-      callback: (i, j) => clickBingo(4 - 1, 2 - 1),
+      callback: (i, j) => clickBingo(2 - 1, 2 - 1),
     },
     {
       command: "Pump tutu.",
